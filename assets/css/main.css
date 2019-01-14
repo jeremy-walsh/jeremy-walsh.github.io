@@ -1,0 +1,96 @@
+html, body {
+ margin: 0;
+ padding: 0;
+}
+#wrapper {
+ width: 100%;
+ height: 90%;
+ float: left;
+}
+#main {
+ display: table;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 90%;
+ background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/background3.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#background {
+ display: table-cell;
+ vertical-align: middle;
+ text-align: center;
+}
+#content-container {
+ margin-left: auto;
+ margin-right: auto;
+ width: 700px;
+}
+#logo {
+ width: 250px;
+}
+#title {
+ color: white;
+ font-family: 'Oswald', sans-serif;
+ font-size: 3em;
+ margin-top: -30px;
+}
+#description {
+ color: white;
+ font-family: 'Oswald', sans-serif;
+ font-size: 1em;
+ margin-top: 15px;
+}
+#book-appointments-wrapper {
+ margin-top: 20px;
+}
+#book-appointments {
+ border: 2px solid white;
+ color: white;
+ padding: 10px;
+ text-decoration: none;
+ display: block;
+ margin: auto;
+ width: 200px;
+ margin-top: 15px;
+}
+#book-appointments:hover {
+ border: 2px solid white;
+ color: black;
+ background-color: white;
+ padding: 10px;
+ text-decoration: none;
+ display: block;
+ margin: auto;
+ width: 200px;
+}
+#footer {
+ position: relative;
+ width: 100%;
+ height: 100px;
+ float: left;
+ background-color: rgb(46, 46, 46);
+}
+#footer-table {
+ display: table;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100px;
+}
+#footer-cell {
+ display: table-cell;
+ vertical-align: middle;
+ text-align: center;
+}
+#footer-data {
+ margin-left: auto;
+ margin-right: auto;
+ width: 700px;
+ color: white;
+ font-family: 'Oswald', sans-serif;
+ font-weight: bold;
+}
